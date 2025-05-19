@@ -1,0 +1,56 @@
+<header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <i class="fas fa-headphones text-primary text-3xl mr-2"></i>
+            <span class="text-2xl font-bold text-dark">Sonix<span class="text-primary">Tech</span></span>
+        </div>
+        
+        <nav class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link font-medium hover:text-primary">Home</a>
+            <a href="#products" class="nav-link font-medium hover:text-primary">Products</a>
+            <a href="#features" class="nav-link font-medium hover:text-primary">Features</a>
+            <a href="#about" class="nav-link font-medium hover:text-primary">About</a>
+            <a href="#contact" class="nav-link font-medium hover:text-primary">Contact</a>
+        </nav>
+        
+        <div class="hidden md:flex items-center space-x-4">
+            <button class="text-dark hover:text-primary">
+                <i class="fas fa-search text-xl"></i>
+            </button>
+            <button class="text-dark hover:text-primary relative">
+                <i class="fas fa-shopping-cart text-xl"></i>
+                <span class="absolute -mt-2 -mr-2 bg-primary text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">3</span>
+            </button>
+            <button class="bg-primary text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">
+                Sign In
+            </button>
+        </div>
+        
+        <button id="mobile-menu-button" class="md:hidden text-dark">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-white">
+        <div class="container mx-auto px-4 py-2 flex flex-col space-y-4">
+            <a href="#home" class="block py-2 font-medium hover:text-primary">Home</a>
+            <a href="#products" class="block py-2 font-medium hover:text-primary">Products</a>
+            <a href="#features" class="block py-2 font-medium hover:text-primary">Features</a>
+            <a href="#about" class="block py-2 font-medium hover:text-primary">About</a>
+            <a href="#contact" class="block py-2 font-medium hover:text-primary">Contact</a>
+            <div class="flex space-x-4 py-2">
+                <button class="text-dark hover:text-primary">
+                    <i class="fas fa-search text-xl"></i>
+                </button>
+                <button class="text-dark hover:text-primary relative">
+                    <i class="fas fa-shopping-cart text-xl"></i>
+                    <span class="absolute -mt-2 -mr-2 bg-primary text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">3</span>
+                </button>
+            </div>
+            <button class="bg-primary text-white px-4 py-2 rounded-full hover:bg-blue-600 transition mb-4">
+                Sign In
+            </button>
+        </div>
+    </div>
+</header>
